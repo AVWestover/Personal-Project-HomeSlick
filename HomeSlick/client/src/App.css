@@ -1,0 +1,215 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+.App {
+  text-align: center;
+  margin-top:10px;
+}
+.error-text {
+  font-size:12px;
+  color:rgb(240, 0, 0);
+}
+.form-star-text {
+  font-size:11px;
+}
+.form-input-div{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: auto;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(219, 219, 219);
+}
+.form-input-div>input{
+  border-radius:30px;
+}
+.form-descripton-div{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: auto;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(219, 219, 219);
+}
+.description-input{
+  border-radius: 5px;
+}
+.house-add-btn{
+  border:1px solid;
+  border-color:black;
+  box-shadow: 1px 1px black;
+}
+.house-div{
+  border: 1px solid;
+  width:250px;
+  margin: auto;
+  margin-top:15px;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(238, 238, 238);
+  display:flex;
+  flex-direction: column;
+}
+.house-name-link{
+  font-weight:bold;
+  color:rgb(58, 58, 58);
+}
+.house-name-link:hover{
+  color: rgb(15, 76, 241);
+}
+.house-edit-link{
+  color:rgb(15, 76, 241);
+  font-size:13px;
+  margin-top:1px;
+}
+.house-edit-link:hover{
+  color:black;
+}
+.detail-titlebtn-div{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.contact-btn{
+  margin-left:8px;
+  margin-top:50px;
+  border:2px solid;
+  border-color:green;
+  height:20px;
+  background-color: rgb(61, 175, 38);
+  color:white;
+  font-weight:bold;
+  font-size:13px;
+  text-decoration: none;
+}
+.contact-btn:hover{
+  color:black;
+}
+.contact-btn-text{
+  text-decoration:none;
+  margin:0px;
+  padding-top:2px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.remove-listing-btn{
+  margin-left:8px;
+  margin-top:50px;
+  border:2px solid;
+  border-color:rgb(146, 18, 18);
+  height:20px;
+  background-color: rgb(175, 38, 38);
+  color:white;
+  font-weight:bold;
+  font-size:13px;
+  text-decoration: none;
+}
+.remove-listing-btn:hover{
+  color:black;
+}
+.house-detailpage-title{
+  text-decoration:underline;
+  margin-bottom:60px;
+  font-size: 38px;
+}
+#edit-delete-link-div{
+  display:flex;
+  flex-direction:row;
+  margin: auto;
+}
+
+.detail-list{
+  list-style:none;
+  margin: auto;
+  width:200px;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(219, 219, 219);
+}
+.detail-p-cont{
+  margin: auto;
+  width: 300px;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(219, 219, 219);
+}
+.detail-description-cont{
+  margin: auto;
+  width: 300px;
+  border-radius: 30px;
+  padding:15px;
+  background-color: rgb(219, 219, 219);
+
+}
+.underline{
+  text-decoration:underline;
+}
+.detail-inside-cont{
+  border: 3px solid;
+  border-color:black;
+  width:600px;
+}
+.nav-bar{
+  height: 30px;
+  display:flex;
+  padding-left:20px;
+  justify-content: start;
+}
+.nav-underline{
+  text-decoration: underline;
+  color: black;
+}
+.list-outside-cont{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.list-table{
+  margin-top: 50px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:700px;
+}
+th{
+  border:2px solid;
+  border-color:black;
+}
+.table-outside{
+  justify-content:center;
+  display:flex;
+}
+.link-to-form-div{
+  height: 15px;
+  display:flex;
+  padding-right:40px;
+  justify-content: end;
+  margin:0px 0px auto;
+}
+.list-form-link{
+  color:rgb(15, 76, 241);
+  font-size:13px;
+  text-decoration: underline;
+}
+.list-form-link:hover{
+  color:black;
+}
+.h1-text{
+  font-size:40px;
+}
+/* .house-edit-btn{
+  color:black;
+  text-decoration:none;
+  justify-content:center;
+}
+.house-edit-btn-text{
+  text-decoration: none;
+} */
+.house-edit-btn{
+  border:1px solid;
+  border-color:black;
+  box-shadow: 1px 1px black;
+}
