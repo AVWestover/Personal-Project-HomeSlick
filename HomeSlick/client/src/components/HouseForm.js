@@ -54,8 +54,10 @@ const HouseForm = (props) => {
                     <p className="nav-underline">Explore</p>
                 </Link>
             </div>
-            <h1 className="h1-text">List Your Home</h1>
+            <h1 className="h1-text">HomeSlick</h1>
             <br/>
+            <h3>List Your Home</h3>
+            {/* <br/> */}
         <form onSubmit={onSubmitHandler}>
             {/* NAME */}
             <div className= "form-input-div">

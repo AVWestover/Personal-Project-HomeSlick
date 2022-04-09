@@ -11,5 +11,7 @@ module.exports = (app) => {
     app.put('/api/houses/:id', HouseController.updateHouse);
     //delete route
     app.delete('/api/houses/:id', HouseController.deleteHouse);
+    //Contact page
+    app.get('api/houses/contact/:id', HouseController.getHouse);
     //
 }

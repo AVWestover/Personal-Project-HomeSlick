@@ -6,6 +6,7 @@ import Detail from './components/Detail';
 import Update from './components/Update';
 import HouseForm from './components/HouseForm';
 import HouseList from './components/HouseList';
+import ContactPage from './components/ContactPage';
 import './App.css';
 
 
@@ -19,6 +20,7 @@ function App() {
               <Route path="/houses/new" element={<HouseForm/>} /> 
               <Route path="/houses/:id" element={<Detail/>} />
               <Route path="/houses/edit/:id" element={<Update/>} />
+              <Route path="/houses/contact/:id" element={<ContactPage/>} />
             </Routes>
       </div>
     </BrowserRouter>

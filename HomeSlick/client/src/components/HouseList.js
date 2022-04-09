@@ -19,8 +19,6 @@ const HouseList = (props) => {
         setHouses(houses.filter(house => house._id !== houseId))
     }
 
-    
-
 
     return (
         <div className="list-outside-cont">
@@ -34,7 +32,7 @@ const HouseList = (props) => {
                     <p className="list-form-link">add a new listing</p>
                 </Link>
             </div>
-            <h1 className="h1-text">Find Your Dream Home</h1>
+            <h1 className="h1-text">HomeSlick -Find Your Dream Home</h1>
             <br/>
             <h3>Current Listings</h3>
             <div className="table-outside">

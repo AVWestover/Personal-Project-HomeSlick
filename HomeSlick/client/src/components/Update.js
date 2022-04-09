@@ -68,9 +68,9 @@ const Update = (props) => {
                     <p className="nav-underline">Explore</p>
                 </Link>
             </div>
-            <h1 className="h1-text">Update Listing Details</h1>
+            <h1 className="h1-text">HomeSlick</h1>
             <br/>
-            <h3>Edit {houseName}:</h3>
+            <h3>Edit {houseName}'s Listing:</h3>
             <div>
                 <form onSubmit={updateSubmitHandler}>
                     {/* NAME */}
